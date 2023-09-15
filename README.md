@@ -1,8 +1,18 @@
-# React + Vite
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. **Course Registration:** Students can browse available courses and register for the ones they want to take.
 
-Currently, two official plugins are available:
+2. **Limited Credit Hours:** The system enforces a limit on the total credit hours a student can register for in a semester.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. **Prevent Duplicate Course Selection:** Students cannot select the same course twice, ensuring course registration accuracy.
+
+## UseState
+
+1. **Courses** Used to store data from database.
+
+2. **courseList** Used to add selected courses in a list.
+
+3. **remainigCredit** Used to calculate remaining credit.
+4. **totalCredit** Used to calculate total credit.
+5. **totalPrice** Used to calculate total price.
+6. **showToast** Used to show or hide the toast window.
