@@ -1,9 +1,9 @@
 const Header = () => {
-    return (
-        <div className="py-10">
-            <h1 className="text-3xl font-bold text-center">Course Regitration</h1>
-        </div>
-    );
+  return (
+    <div className="mt-72 lg:my-12">
+      <h1 className="text-3xl font-bold text-center">Course Regitration</h1>
+    </div>
+  );
 };
 
 export default Header;

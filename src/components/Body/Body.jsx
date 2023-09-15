@@ -27,7 +27,7 @@ const Body = () => {
   };
 
   return (
-    <div className="px-14 mb-24 flex relative">
+    <div className="px-14 mb-24 flex flex-row-reverse lg:flex-col static lg:relative">
       <Cards selectBtnHandler={selectBtnHandler} />
       <Cart
         courseList={courseList}
