@@ -1,3 +1,6 @@
+# Course Registration
+# https://lying-border.surge.sh/
+
 ## Features
 
 1. **Course Registration:** Students can browse available courses and register for the ones they want to take.
